@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form📑</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="form-v5">
+	<div class="page-content">
+		<div class="form-v5-content">
+			<form class="form-detail" action="/" method="post">
+				<h2>Event Registration Form</h2>
+				<p>Kindly fill in the form below to register for the event, A confirmation mail will be sent to you immediately. </p>
+				<div class="form-row">
+					<label for="first-name">First Name</label>
+					<input type="text" name="first" id="first-name" class="input-text" placeholder="Your First Name Here" required>
+				</div>
+                <div class="form-row">
+					<label for="last-name">Last Name</label>
+					<input type="text" name="last" id="last-name " class="input-text" placeholder="Your Last Name Here" required>
+				</div>
+				<div class="form-row">
+					<label for="your-email">Your Email</label>
+					<input type="text" name="email" id="your-email" class="input-text" placeholder="Your Email Here" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+				</div>
+				<div class="form-row-last">
+					<input type="submit" name="register" class="register" value="Register">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "index.js": [
+      {
+        "id": "150eb398-a4d0-489b-8ee5-71f2da5b3321",
+        "line": 1,
+        "version": 10,
+        "index": 0
+      },
+      {
+        "id": "6a218bb2-3a99-4b8d-911c-a8572ba331d2",
+        "line": 13,
+        "version": 20,
+        "index": 395
+      }
+    ]
+  }
+}
